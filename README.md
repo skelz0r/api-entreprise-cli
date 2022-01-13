@@ -11,14 +11,14 @@ Ce dépôt regroupe l'ensemble des clients pour [API
 Entereprise](https://entreprise.api.gouv.fr/) en version 3.
 
 Ces clients sont générés à l'aide du
-[Swagger](https://entreprise.api.gouv.fr/v3/openapi.yaml) et de l'outil [Swagger
-Codegen](https://swagger.io/tools/swagger-codegen/).
+[Swagger](https://entreprise.api.gouv.fr/v3/openapi.yaml) et de l'outil [OpenAPI
+Generator](https://openapi-generator.tech/)
 
 ## Génération de clients
 
 ### Pré-requis
 
-Vous devez posséder java en version 8.
+Vous devez posséder java en version 8, ainsi qu'une version de node récente.
 
 ### Installation
 

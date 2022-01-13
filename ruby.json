@@ -1,0 +1,11 @@
+{
+  "gemName": "api_entreprise",
+  "gemAuthor": "DINUM",
+  "gemAuthorEmail": "support@entreprise.api.gouv.fr",
+  "gemSummary": "Official API Entreprise client (https://entreprise.api.gouv.fr/)",
+  "gemLicense": "MIT",
+  "gemHomepage": "https://entreprise.api.gouv.fr/",
+  "gemVersion": "1.0.0",
+  "moduleName": "APIEntreprise",
+  "gemRequiredRubyVersion": ">= 2.7.0"
+}
