@@ -1,16 +1,17 @@
 #!/bin/bash
 
-bin="npx @openapitools/openapi-generator-cli"
+lang=ruby
 
-swagger_url=https://entreprise.api.gouv.fr/v3/openapi.yaml
 github_user=skelz0r
 github_repo=api-entreprise-cli
 
-lang=ruby
+bin="npx @openapitools/openapi-generator-cli"
+swagger_path=./openapi.yaml
 
 $bin generate \
-  -i $swagger_url \
+  -i $swagger_path \
   --git-user-id $github_user \
+  --remove-operation-id-prefix \
   --git-repo-id $github_repo \
   --config ./$lang.json \
   -g $lang \
